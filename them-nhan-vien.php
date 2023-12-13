@@ -8,18 +8,20 @@ if (isset($data->hoTen) && isset($data->diaChi) && isset($data->sdt) && isset($d
     $diaChi = $data->diaChi;
     $sdt = $data->sdt;
     $cccd = $data->cccd;
-    $gioiTinh = $data->gioiTinh;
-
+    if ($data->gioiTinh == true){
+        $gioiTinh=1;
+    }else{
+        $gioiTinh=0;
+    }
     // Thêm nhân viên mới vào cơ sở dữ liệu
-    $sql = "INSERT INTO tbl_nhanvien (hoTen, diaChi, sdt, cccd, gioiTinh) VALUES ('$hoTen', '$diaChi', '$sdt', '$cccd', $gioiTinh)";
-
+    $sql = "INSERT INTO tbl_nhanvien (hoTen, diaChi, sdt, cccd, gioiTinh) VALUES ('$hoTen', '$diaChi', '$sdt', '$cccd', 0)";
     if (mysqli_query($conn, $sql)) {
-        echo json_encode(array("success" => true));
+        echo json_encode(true);
     } else {
-        echo json_encode(array("success" => false));
+        echo json_encode(false);
     }
 } else {
-    echo json_encode(array("success" => null));
+    echo json_encode(false);
 }
 
 // Đóng kết nối

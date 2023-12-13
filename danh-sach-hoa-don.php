@@ -3,17 +3,19 @@ require "connectDB.php";
 header("Content-Type: application/json");
 // Lấy dữ liệu gửi từ yêu cầu POST
 
-    // Thêm nhân viên mới vào cơ sở dữ liệu
-    $sql = "SELECT * FROM tbl_douong WHERE trangThai= true";
+// Thêm nhân viên mới vào cơ sở dữ liệu
+$sql = "SELECT * FROM tbl_hoadonban ORDER BY id desc";
 
-    $list = array();
+$list = array();
 //kiểm tra
 if ($result = mysqli_query($conn, $sql)) {
     while ($row = mysqli_fetch_array($result)) {
         array_push($list,array(
-            "maDoUong" =>(int) $row['maDoUong'],
-            "tenDoUong" => $row['tenDoUong'],
-            "gia" =>(int) $row['gia'],));
+            "maHDB"=>(int) $row['maHDB'],
+            "maNV" =>(int) $row['maNV'],
+            "ngayLap" => $row['ngayLap'],
+            "tongGia" => $row['tongGia'],
+            "soBan" => (int)$row['soBan']));
     }
     echo json_encode($list);
 } else

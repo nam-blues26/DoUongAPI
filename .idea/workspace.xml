@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da500e70-cd6c-4611-9b0b-c6fd6ab554f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chi-tiet-hoa-don.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/danh-sach-hoa-don.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/danh-sach-loai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/danh-sach-nhan-vien.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tong-hoa-don.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/danh-sach-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/danh-sach-do-uong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sua-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/sua-do-uong.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sua-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/sua-nhan-vien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/them-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-do-uong.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/them-loai.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-loai.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/them-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-nhan-vien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xoa-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoa-do-uong.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xoa-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoa-nhan-vien.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,20 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/laragon/www/DoUongAPI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/laragon/www/DoUongAPI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +65,13 @@
       <workItem from="1699022148411" duration="298000" />
       <workItem from="1700836913563" duration="2980000" />
       <workItem from="1700888493462" duration="2440000" />
-      <workItem from="1700981707907" duration="3138000" />
+      <workItem from="1700981707907" duration="3664000" />
+      <workItem from="1701071178141" duration="3943000" />
+      <workItem from="1701141726850" duration="2471000" />
+      <workItem from="1701240621504" duration="2862000" />
+      <workItem from="1701261983500" duration="5418000" />
+      <workItem from="1701332384861" duration="2413000" />
+      <workItem from="1701365813016" duration="1970000" />
     </task>
     <servers />
   </component>

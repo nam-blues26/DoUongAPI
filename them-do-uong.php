@@ -13,12 +13,12 @@ if (isset($data->tenDoUong) && isset($data->gia)) {
     $sql = "INSERT INTO tbl_douong (tenDoUong, gia, trangThai,maLoai) VALUES ('$tenDoUong', '$gia', $trangThai,$maLoai)";
 
     if (mysqli_query($conn, $sql)) {
-        echo json_encode(array("success" => true));
+        echo json_encode(true);
     } else {
-        echo json_encode(array("success" => false ));
+        echo json_encode(false );
     }
 } else {
-    echo json_encode(array("success" => null));
+    echo json_encode( false);
 }
 
 // Đóng kết nối
