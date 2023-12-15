@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da500e70-cd6c-4611-9b0b-c6fd6ab554f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chi-tiet-hoa-don.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/danh-sach-hoa-don.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/danh-sach-loai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/danh-sach-nhan-vien.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tong-hoa-don.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/danh-sach-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/danh-sach-do-uong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sua-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/sua-do-uong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sua-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/sua-nhan-vien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/them-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-do-uong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/them-loai.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-loai.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/them-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/them-nhan-vien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xoa-do-uong.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoa-do-uong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xoa-nhan-vien.php" beforeDir="false" afterPath="$PROJECT_DIR$/xoa-nhan-vien.php" afterDir="false" />
-    </list>
+    <list default="true" id="da500e70-cd6c-4611-9b0b-c6fd6ab554f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +57,7 @@
       <workItem from="1701261983500" duration="5418000" />
       <workItem from="1701332384861" duration="2413000" />
       <workItem from="1701365813016" duration="1970000" />
+      <workItem from="1702433400919" duration="637000" />
     </task>
     <servers />
   </component>
