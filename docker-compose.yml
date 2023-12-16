@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  php-apache:
+    image: php:apache
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "8000:80"
+    # Có thể bạn cần thêm các cài đặt khác ở đây
+
