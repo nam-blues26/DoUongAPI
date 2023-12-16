@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 // Lấy dữ liệu gửi từ yêu cầu POST
 
 // Thêm nhân viên mới vào cơ sở dữ liệu
-$sql = "SELECT * FROM tbl_hoadonban ORDER BY id desc";
+$sql = "SELECT * FROM tbl_hoadonban ORDER BY maHDB desc";
 
 $list = array();
 //kiểm tra
