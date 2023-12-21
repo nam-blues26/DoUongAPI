@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 // Lấy dữ liệu gửi từ yêu cầu POST
 
     // Thêm nhân viên mới vào cơ sở dữ liệu
-    $sql = "SELECT * FROM tbl_douong WHERE trangThai= true";
+    $sql = "SELECT * FROM tbl_douong left join tbl_loai on tbl_douong.maLoai = tbl_loai.maLoai WHERE trangThai= true order by tbl_douong.maDoUong desc";
 
     $list = array();
 //kiểm tra
@@ -13,6 +13,7 @@ if ($result = mysqli_query($conn, $sql)) {
         array_push($list,array(
             "maDoUong" =>(int) $row['maDoUong'],
             "tenDoUong" => $row['tenDoUong'],
+            "tenLoai" => $row['tenLoai'],
             "gia" =>(int) $row['gia'],));
     }
     echo json_encode($list);

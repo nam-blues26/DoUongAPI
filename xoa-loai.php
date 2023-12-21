@@ -15,9 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
 
     if (mysqli_query($conn, $sql)) {
         $deletedRows = mysqli_affected_rows($conn);
-        echo json_encode(array('success' => true, 'deletedRows' => $deletedRows));
+        echo json_encode(true);
     } else {
-        echo json_encode(array('success' => false));
+        echo json_encode(false);
     }
 
 }else {
