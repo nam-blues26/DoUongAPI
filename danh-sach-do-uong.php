@@ -4,7 +4,7 @@ header("Content-Type: application/json");
 // Lấy dữ liệu gửi từ yêu cầu POST
 
     // Thêm nhân viên mới vào cơ sở dữ liệu
-    $sql = "SELECT * FROM tbl_douong left join tbl_loai on tbl_douong.maLoai = tbl_loai.maLoai WHERE trangThai= true order by tbl_douong.maDoUong desc";
+    $sql = "SELECT * FROM tbl_douong left join tbl_loai on tbl_douong.maLoai = tbl_loai.maLoai  order by tbl_douong.maDoUong desc";
 
     $list = array();
 //kiểm tra
