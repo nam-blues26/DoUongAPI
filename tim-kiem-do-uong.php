@@ -8,13 +8,14 @@ if (isset($data->key)) {
 
 
     // Thêm nhân viên mới vào cơ sở dữ liệu
-    $sql = "SELECT * FROM tbl_douong WHERE tenDoUong LIKE '%$key%'";
+    $sql = "SELECT * FROM tbl_douong left join tbl_loai on tbl_douong.maLoai = tbl_loai.maLoai WHERE tenDoUong LIKE '%$key%'";
     $list = array();
     if ($result = mysqli_query($conn, $sql)) {
         while ($row = mysqli_fetch_array($result)) {
             array_push($list,array(
                 "maDoUong" =>(int) $row['maDoUong'],
                 "tenDoUong" => $row['tenDoUong'],
+                "tenLoai" => $row['tenLoai'],
                 "gia" =>(int) $row['gia'],));
         }
         echo json_encode($list);

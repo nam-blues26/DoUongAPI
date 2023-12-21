@@ -7,7 +7,8 @@ header("Content-Type: application/json");
 $sql = "SELECT tbl_loai.maLoai, tbl_loai.tenLoai, COUNT(tbl_douong.maDoUong) AS soLuong
 FROM tbl_loai
 LEFT JOIN tbl_douong ON tbl_loai.maLoai = tbl_douong.maLoai
-GROUP BY tbl_loai.maLoai, tbl_loai.tenLoai, tbl_douong.maDoUong;
+GROUP BY tbl_loai.maLoai, tbl_loai.tenLoai;
+
 ";
 
 $list = array();
