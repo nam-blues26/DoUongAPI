@@ -6,7 +6,7 @@ $uriSegments = explode('/', $_SERVER['REQUEST_URI']);
 // Lấy ID từ URI (ví dụ: 3)
 $id = (int) end($uriSegments);
 // Thêm nhân viên mới vào cơ sở dữ liệu
-$sql = "Select cthd.maHDB, cthd.soLuong, cthd.giaDoUong, du.tenDoUong From  qlydouong.tbl_chitiethoadon as cthd
+$sql = "Select cthd.maHDB, cthd.soLuong, cthd.giaDoUong, du.tenDoUong, cthd.size From  qlydouong.tbl_chitiethoadon as cthd
 left join qlydouong.tbl_douong as du on du.maDoUong = cthd.maDoUong Where cthd.maHDB = $id";
 
 $list = array();
@@ -17,7 +17,8 @@ if ($result = mysqli_query($conn, $sql)) {
             "maHDB" =>(int) $row['maHDB'],
             "soLuong" => $row['soLuong'],
             "giaDoUong" => $row['giaDoUong'],
-            "tenDoUong" => $row['tenDoUong'],));
+            "tenDoUong" => $row['tenDoUong'],
+            "size" => $row['size']));
     }
     echo json_encode($list);
 } else
